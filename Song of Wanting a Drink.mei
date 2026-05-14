@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-basic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-basic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1+basic">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Untitled score</title>
+            <title type="subordinate">Subtitle</title>
+            <respStmt>
+               <persName role="composer">Composer / arranger</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt>
+            <date isodate="2026-04-18T22:48:40" />
+         </pubStmt>
+      </fileDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv>
+            <score>
+               <scoreDef>
+                  <pgHead func="first">
+                     <rend halign="center" valign="top">
+                        <rend type="title" fontsize="x-large">Song of Wanting a Drink</rend>
+                        <lb />
+                        <rend type="subtitle" fontsize="large">Subtitle</rend>
+                     </rend>
+                     <rend halign="right" valign="bottom">
+                        <rend type="composer">Truku folk song / Liang Lee</rend>
+                     </rend>
+                  </pgHead>
+                  <staffGrp>
+                     <staffDef n="1" lines="5" meter.sym="common">
+                        <label>Soprano</label>
+                        <labelAbbr>S.</labelAbbr>
+                        <instrDef midi.instrnum="52" />
+                        <clef shape="G" line="2" />
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="s1">
+                  <pb />
+                  <measure xml:id="m1d00wj0" right="dotted" n="1">
+                     <staff xml:id="m1s1" n="1">
+                        <layer xml:id="m1s1l1" n="1">
+                           <note xml:id="n1wsjo0m" dur="1" pname="g" oct="4" />
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m2f36wu" right="dotted" n="2">
+                     <staff xml:id="m2s1" n="1">
+                        <layer xml:id="m2s1l1" n="1">
+                           <rest xml:id="rz5v05w" type="mscore-beam-none" dur="8" />
+                           <beam>
+                              <note xml:id="n6pbq2b" dur="8" pname="g" oct="4" />
+                              <note xml:id="nambu6q" dur="8" pname="g" oct="4" />
+                              <note xml:id="n1u4a9md" dur="8" pname="g" oct="4" />
+                           </beam>
+                           <beam>
+                              <note xml:id="n1lsdcek" dur="8" pname="g" oct="4" />
+                              <note xml:id="nes2vl5" dur="8" pname="g" oct="4" />
+                           </beam>
+                           <beam>
+                              <note xml:id="n1c9o8t8" dots="1" dur="8" pname="g" oct="4" />
+                              <note xml:id="n1fjrt8l" dur="16" pname="g" oct="4" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="mmnkq1p" right="dotted" n="3">
+                     <staff xml:id="m3s1" n="1">
+                        <layer xml:id="m3s1l1" n="1">
+                           <beam>
+                              <note xml:id="n1r8hv2" dots="1" dur="8" pname="a" oct="4" />
+                              <note xml:id="n1sl49h7" dur="16" pname="g" oct="4" />
+                           </beam>
+                           <beam>
+                              <note xml:id="n1ld5n63" dots="1" dur="8" pname="e" oct="4" />
+                              <note xml:id="nm4ead4" dur="16" pname="d" oct="4" />
+                           </beam>
+                           <note xml:id="n13tf2sk" dur="2" pname="g" oct="4" />
+                        </layer>
+                     </staff>
+                     <tie xml:id="t1m9zt5u" startid="#n13tf2sk" endid="#n1uito2k" />
+                  </measure>
+                  <measure xml:id="mtcjll9" right="dotted" n="4">
+                     <staff xml:id="m4s1" n="1">
+                        <layer xml:id="m4s1l1" n="1">
+                           <note xml:id="n1uito2k" dur="2" pname="g" oct="4" />
+                           <rest xml:id="r5mtkuf" type="mscore-beam-none" dots="1" dur="8" />
+                           <note xml:id="n16sf8oh" dur="16" pname="e" oct="4" />
+                           <beam>
+                              <note xml:id="n1a9thf2" dots="1" dur="8" pname="d" oct="4" />
+                              <note xml:id="nd8md4o" dur="16" pname="c" oct="4" />
+                           </beam>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="m3ajvc5" n="5">
+                     <staff xml:id="m5s1" n="1">
+                        <layer xml:id="m5s1l1" n="1">
+                           <beam>
+                              <note xml:id="nchg9o2" dots="1" dur="8" pname="b" oct="3" />
+                              <note xml:id="nfq76sx" dur="16" pname="a" oct="3" />
+                           </beam>
+                           <note xml:id="n5drxpb" dur="4" pname="c" oct="4" />
+                           <beam>
+                              <note xml:id="n70f652" dots="1" dur="8" pname="b" oct="3" />
+                              <note xml:id="n1b60l2x" dur="16" pname="a" oct="3" />
+                           </beam>
+                           <note xml:id="n1akrjvv" dur="4" pname="d" oct="4" />
+                        </layer>
+                     </staff>
+                     <tie xml:id="t18x5xom" startid="#n1akrjvv" endid="#n1uzd8cl" />
+                  </measure>
+                  <sb />
+                  <measure xml:id="m1ulpvf4" right="end" n="6">
+                     <staff xml:id="m6s1" n="1">
+                        <layer xml:id="m6s1l1" n="1">
+                           <note xml:id="n1uzd8cl" dots="1" dur="2" pname="d" oct="4" />
+                           <rest xml:id="r1xa6c0m" dur="4" />
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
